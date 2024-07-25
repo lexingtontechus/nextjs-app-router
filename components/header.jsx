@@ -31,7 +31,7 @@ const Header = () => (
               width="10"
               height="10"
               alt="Image"
-              src="vercel.svg"
+              src="next.svg"
             />
           </div>
         </div>
