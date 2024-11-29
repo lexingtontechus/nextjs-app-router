@@ -1,9 +1,8 @@
-import { Inter } from "next/font/google";
-import "../styles/globals.css";
+import { GeistMono } from "geist/font/mono";
+import "./app.css";
 import { ThemeProvider } from "next-themes";
 import Header from "../components/header";
 import Footer from "../components/footer";
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Lexington NextJS Template",
@@ -13,8 +12,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <ThemeProvider defaultTheme="black">
-        <body className={inter.className}>
+      <ThemeProvider defaultTheme="cyberpunk">
+        <body className={GeistMono.className}>
           <Header />
           <main className="mx-auto p-8">{children}</main>
           <Footer />
