@@ -13,7 +13,7 @@ const Header = () => (
       <div className="avatar">
         <div className="p-0 h-12 w-12">
           <Link href="/">
-            <Logo size={12} padding={0} />
+            <Logo size={10} padding={1} />
           </Link>
         </div>
       </div>

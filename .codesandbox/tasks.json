@@ -3,7 +3,7 @@
   "setupTasks": [
     {
       "name": "Install Dependencies",
-      "command": "yarn install"
+      "command": "yarn install --ignore-engines"
     }
   ],
 
@@ -34,7 +34,7 @@
     },
     "install": {
       "name": "install dependencies",
-      "command": "yarn install"
+      "command": "yarn install --ignore-engines"
     }
   }
 }
