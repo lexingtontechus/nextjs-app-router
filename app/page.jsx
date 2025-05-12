@@ -1,15 +1,17 @@
-import Image from "next/image";
-import Link from "next/link";
+"use client";
+//import config from "@unstoppabledomains/config";
 
 export default function Home() {
   return (
-    <main className="hero min-h-screen">
-      <div className="max-w-2xl">
-        <h1>
-          Get started by editing&nbsp;
-          <p className="text-primary">app/page.tsx</p>
-        </h1>
+    <div className="m-5 p-5">
+      <h3 className="text-xl">Unstoppable Messaging Demo</h3>
+      <div className="text-lg">
+        The source code for this demo can be found{" "}
+        <a href="https://github.com/unstoppabledomains/domain-profiles/tree/main/examples/unstoppable-messaging">
+          here
+        </a>{" "}
+        on GitHub.
       </div>
-    </main>
+    </div>
   );
 }
